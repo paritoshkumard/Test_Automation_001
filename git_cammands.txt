@@ -1,0 +1,30 @@
+Fo
+                                                                                                             ter)
+$ git status
+                                                                               ter)
+$ git add Service\ Level\ BD/
+
+                 G:\Devops_poc\Test_Automation_001                                                                                              ter)
+$ git status
+                                                                                                               ter)
+$ git commit -m "commited Service Level BD for UC5 and UC9"
+                                                                                                ter)
+$ git status
+
+git push -u origin master
+
+$ git status
+
+
+
+For new repository :-
+if(git command doesn't work)
+	git init
+1) git add remote origin <remote repository url>
+2) if remote repository is empty then :-
+	git add .   ( . stands for add all files)
+   if something is there in remote repository
+	git pull origin master
+3)  if any conflicts come in 2 step then resolve conflicts the do again git pull origin master
+4)	git commit -m  "Initial comment"
+5)  git push -u origin master   (-u for tracking the orign and master branch)
